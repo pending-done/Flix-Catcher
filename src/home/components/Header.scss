@@ -1,0 +1,80 @@
+.Header {
+  padding: 20px 0 30px 0;
+  width: 80%;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  border-bottom: 1px solid grey;
+
+  .logo-wrapper {
+    margin: 25px auto;
+    min-width: 40%;
+
+    display: flex;
+    justify-content: center;
+
+    .logo {
+      font-family: "Staatliches", cursive;
+
+      font-size: 6em;
+      text-align: center;
+      color: #efb33b;
+      text-shadow: 5px 5px #2d63a7;
+      margin: 0;
+    }
+  }
+
+  .search-bar-wrapper {
+    width: 80%;
+
+    .search-bar {
+      background-color: rgb(85, 78, 78);
+      color: white;
+      width: 100%;
+      height: 30px;
+      margin: 0px auto 0px auto;
+      border-radius: 10px;
+      border: 1px solid black;
+    }
+  }
+
+  .genres-wrapper {
+    width: 80%;
+
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+
+    .genre-box {
+      background-color: #333;
+      color: #fff;
+      padding: 8px 16px;
+      border-radius: 20px;
+      margin: 5px;
+      font-size: 14px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .genre-box:hover {
+      background-color: #555;
+    }
+
+    .genre-box.selected {
+      background-color: #f39c12;
+      color: #141414;
+    }
+
+    .genre-tag.selected:hover {
+      background-color: #f1c40f;
+    }
+
+    .genre-box:active {
+      transform: scale(0.98);
+    }
+  }
+}

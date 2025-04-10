@@ -1,0 +1,73 @@
+import { Movie } from "./types/Movie";
+
+export const mockData: Movie[] = [
+  {
+    adult: false,
+    backdrop_path: "/h3weAFgg06GqchI2xDfufBgSFTj.jpg",
+    genre_ids: [18],
+    id: 600354,
+    original_language: "en",
+    original_title: "The Father",
+    overview:
+      "나는 런던에서 평화롭게 삶을 보내고 있었다. 무료한 일상 속 나를 찾아오는 건 딸 앤뿐이다. 그런데 앤이 갑작스럽게 런던을 떠난다고 말한다. 그 순간부터 앤이 내 딸이 아닌 것처럼 느껴졌다. 잠깐, 앤이 내 딸이 맞기는 한 걸까?",
+    popularity: 62.724,
+    poster_path: "/8xc8OfJdNLGRzVbqT4gqYdYfhj2.jpg",
+    release_date: "2020-12-23",
+    title: "더 파더",
+    video: false,
+    vote_average: 8.1,
+    vote_count: 3078,
+  },
+  {
+    adult: false,
+    backdrop_path: "/sTp8K0SfcC2RQef1Tu160z3niHO.jpg",
+    genre_ids: [35, 10752],
+    id: 935,
+    original_language: "en",
+    original_title:
+      "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
+    overview:
+      "미 공군의 잭 리퍼 장군은 공산주의자들이 미국인의 신성한 혈통을 오염시킬 음모를 꾸미고 있다는 망상에 사로잡혀 핵폭격기를 출격시킨다. 미국 대통령은 절대절명의 위기를 해결 하기 위해 자문회를 소집하는데, 그 자리에서 소련 대사는 만일 소련이 핵공격을 당한다면 지구상의 모든 동식물이 파멸되는 운명의 날이 다가오게 될 것이라고 경고한다. 전 나치주의자였던 천재 과학자 스트레인지러브 박사는 핵무기에 지구의 운명이 달려있다는 사실이 너무 명백하므로 핵무기로 상황을 대응할 수 없다는 결론을 내린다. 과연 폭격기는 제 시간에 제거될 수 있을 것인가? 아니면 잭 리퍼 장군이 전세계를 파멸시키는데 성공 할 것인가?",
+    popularity: 37.304,
+    poster_path: "/2VrsnlM63ab3oAuMt3XOnbGYMY6.jpg",
+    release_date: "1964-01-29",
+    title: "닥터 스트레인지러브",
+    video: false,
+    vote_average: 8.125,
+    vote_count: 5456,
+  },
+  {
+    adult: false,
+    backdrop_path: "/cXQH2u7wUIX1eoIdEj51kHXoWhX.jpg",
+    genre_ids: [35, 80],
+    id: 100,
+    original_language: "en",
+    original_title: "Lock, Stock and Two Smoking Barrels",
+    overview:
+      "베이컨(제이슨 스테덤), 소프(덱스터 플렛쳐), 톰(제이슨 플레밍)과 에디(닉 모란) 패거리는 포르노 거물 해리가 여는 포커판에 끼려는 에디에게 가진 돈을 모두 준다. 그러나 이길 줄 알았던 에디가 졌을 뿐만 아니라 해리에게 빚까지 지게 된다. 일주일 안에 돈을 갚지 않으면 손가락이 잘릴 위기에 처한 에디는 대마초 패거리를 털려는 덕의 계획을 알고 덕 일당의 돈을 뺏기로 한다. 덕 일당이 돈과 대마초를 털어오자 집에서 기다린 에디 일당이 돈과 대마초를 빼앗는다. 에디 일당은 해리에게 빚을 갚고 대마초를 팔아 돈을 챙기기만 하면 된다고 기뻐하지만...",
+    popularity: 20.764,
+    poster_path: "/pmnmU1BVt58y2HLyvWFYnC3F6ma.jpg",
+    release_date: "1998-08-28",
+    title: "록 스탁 앤 투 스모킹 배럴즈",
+    video: false,
+    vote_average: 8.123,
+    vote_count: 6415,
+  },
+  {
+    adult: false,
+    backdrop_path: "/iQlJyRecJeGGzQGT2rEcyAgz89F.jpg",
+    genre_ids: [10749, 18],
+    id: 762975,
+    original_language: "en",
+    original_title: "Purple Hearts",
+    overview:
+      "파병이 예정된 해병대원과 위장 결혼을 한 뮤지션 지망생. 가짜였던 둘의 관계는 비극으로 인해 어느새 진심이 되어버린다.",
+    popularity: 49.281,
+    poster_path: "/bETrhE8ALy0fmfpG0j7ek6Da4Or.jpg",
+    release_date: "2022-07-29",
+    title: "퍼플 하트",
+    video: false,
+    vote_average: 8.123,
+    vote_count: 2430,
+  },
+];

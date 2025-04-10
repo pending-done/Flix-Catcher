@@ -1,0 +1,38 @@
+.MovieListItem {
+  flex: 0 0 calc(20% - 12px);
+  border: 2px solid rgb(25, 52, 229);
+  background-color: #2a2929;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+
+  .img-wrapper {
+    border-radius: 8px;
+    height: 80%;
+    width: 100%;
+    height: 100%;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+  }
+
+  .content-wrapper {
+    width: 100%;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(223, 213, 219);
+
+    h4 {
+      font-family: "SBAggroB", cursive;
+      font-weight: 800;
+      font-size: 1rem;
+      word-break: break-all;
+      height: 50px;
+    }
+  }
+}
