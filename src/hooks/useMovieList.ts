@@ -1,6 +1,6 @@
 import { useQuery } from "@tanstack/react-query";
 import api from "../utils/api";
-import queryKey from "../utils/querykey";
+import queryKey from "../utils/queryKey";
 
 type Props = {
   endPoint: string;
